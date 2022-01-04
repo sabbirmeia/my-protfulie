@@ -3,14 +3,26 @@ body{
 
 }
 .clour{
-    font-size: 50px;
+    font-size: 40px;
     color: orange;
 }
-
-.size{
-    font-size: 40px;
-    color: black;
-
-} 
-
+section{
+    display: flex;
+}
+.whit{
+    width: 50%;
+    padding: 5%;
+}
+.whit img{
+    width: 100%;
+    
+}
+.batton{
+    text-decoration: none; 
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: whitesmoke;
+    size: 400px;
+}
  
