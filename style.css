@@ -2,12 +2,17 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+p{
+    color: dimgray;
+
+}
 .clour{
     font-size: 40px;
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .whit{
     width: 50%;
@@ -28,4 +33,10 @@ section{
  .top-banner{
      background-image: url(images/top-banner.png);
      background-repeat: no-repeat;
+ }
+ .dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
  }
