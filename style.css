@@ -7,9 +7,9 @@ p{
 
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-.h1 span{
+span{
     color: orange;
 }
 .fixl{
@@ -17,8 +17,8 @@ h1{
     margin-bottom: 100px;
 }
 .whit{
-    width: 50%;
-    padding: 3%;
+    width: 800%;
+    padding: 2%;
 }
 .whit img{
     width: 100%;
