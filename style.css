@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #ffae00;
 }
 p{
     color: dimgray;
@@ -9,19 +10,29 @@ p{
 h1{
     font-size: 40px;
 }
-span{
-    color: orange;
+h2{
+    font-size: 30px;
+}
+.span{
+    color:#DE3163 ;
+    
 }
 .fixl{
     display: flex;
     margin-bottom: 100px;
+    background-color:#08d3f7;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .whit{
     width: 800%;
     padding: 2%;
+    background-color:#08d3f7;
 }
 .whit img{
     width: 100%;
+    
     
 }
 .batton{
@@ -35,6 +46,7 @@ span{
  .top-banner{
      background-image: url(images/top-banner.png);
      background-repeat: no-repeat;
+    
  }
  .dream{
     background-image: url(images/dream-bg.png);
@@ -42,4 +54,28 @@ span{
     background-position: right;
 
  }
+ .exprinces-item{
+    box-shadow: 20px 20px 30px grey;
+    margin: 5%;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    
+ }
+ #boder{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(0, 153, 255));
+    border-image-slice: 1;
+ }
+ #first-boder{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(119, 0, 255),rgb(212, 47, 199));
+    border-image-slice: 1;
+ }
+ footer p{
+     text-align: center;
+     text-decoration: none;
+ }
+
+ 
  
